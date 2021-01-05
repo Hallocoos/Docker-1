@@ -1,0 +1,9 @@
+#!/bin/bash
+
+eval $(docker-machine env Char)
+
+
+#Define the variables needed by your virtual machineCharin the general env of yourterminal, 
+# so that you can run thedocker pscommand without errors. You haveto fix all four environment 
+# variables with one command, and you are not allowedto use your shell’s builtin to set these 
+# variables by hand.
