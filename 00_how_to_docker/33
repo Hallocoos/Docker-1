@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#a `docker images ls` shows no image
+
+docker image rm $(docker images -q) 
+
+
+#Delete all the container images stored on the Char virtual machine, in one command as well.

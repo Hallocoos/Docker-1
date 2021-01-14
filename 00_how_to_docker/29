@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# docker service logs -f marines
+# docker service inspect -f "{{.Spec.TaskTemplate.ContainerSpec.Env}}" marines
+
+docker service ps marines
+
+
+#Display all the tasks of the marines service.

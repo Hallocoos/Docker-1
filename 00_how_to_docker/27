@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# docker service ps engineering-bay
+# docker service inspect -f "{{.Spec.TaskTemplate.ContainerSpec.Env}}" engineering-bay
+
+docker service logs -f engineering-bay 
+
+
+#Get the real-time logs of one the tasks of the engineering-bay service.

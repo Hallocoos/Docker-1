@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#docker service ps marines
+
+docker service update marines --replicas 20 
+
+
+#Increase the number of copies of the marines service up to twenty, because there’s
+# never enough Marines to eliminate Zergs. (Remember to take a look at the tasks
+# and logs of the service, you’ll see, it’s fun.)

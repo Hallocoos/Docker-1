@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#a `docker ps -a` shows no container
+
+docker rm -f $(docker ps -qa)
+
+
+#Force quit and delete all the containers (whatever their status), in one command.

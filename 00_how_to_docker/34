@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#`docker-machine ls` shows that Aiur is definitely destroyed
+
+docker-machine rm -y Aiur 
+
+
+#Delete the Aiur virtual machine without using rm -rf.

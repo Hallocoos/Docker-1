@@ -1,0 +1,6 @@
+#!/bin/bash
+
+docker swarm init --advertise-addr $(docker-machine ip Char) --listen-addr $(docker-machine ip Char)
+
+# https://forums.docker.com/t/bind-cannot-assign-requested-address/12230
+#Create a local swarm, the Char virtual machine should be its manager.

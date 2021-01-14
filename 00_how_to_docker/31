@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#a `docker service ls` shows no service
+
+docker service rm $(docker service ls -q)
+
+
+#Force quit and delete all the services on the local swarm, in one command.
