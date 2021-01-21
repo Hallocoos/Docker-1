@@ -3,5 +3,5 @@
 docker run -it --rm alpine /bin/sh
 
 
-#Launch a shell from analpinecontainer, and make sure that you can interactdirectly with the container via your terminal, 
+#Launch a shell from an alpine container, and make sure that you can interactdirectly with the container via your terminal, 
 # and that the container deletes itselfonce the shell’s execution is done
